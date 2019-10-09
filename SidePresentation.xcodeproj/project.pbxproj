@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45473025234E684600EB74F4 /* SideMenuPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45473024234E684600EB74F4 /* SideMenuPresentation.swift */; };
+		45473027234E69D900EB74F4 /* SideMenuAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45473026234E69D900EB74F4 /* SideMenuAnimate.swift */; };
+		45473029234E6DC800EB74F4 /* SideMenuInteractivetransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45473028234E6DC800EB74F4 /* SideMenuInteractivetransition.swift */; };
 		A2121DC9234D9EDA00006087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2121DC8234D9EDA00006087 /* AppDelegate.swift */; };
 		A2121DCB234D9EDA00006087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2121DCA234D9EDA00006087 /* SceneDelegate.swift */; };
 		A2121DCD234D9EDA00006087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2121DCC234D9EDA00006087 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45473024234E684600EB74F4 /* SideMenuPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuPresentation.swift; sourceTree = "<group>"; };
+		45473026234E69D900EB74F4 /* SideMenuAnimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuAnimate.swift; sourceTree = "<group>"; };
+		45473028234E6DC800EB74F4 /* SideMenuInteractivetransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuInteractivetransition.swift; sourceTree = "<group>"; };
 		A2121DC5234D9EDA00006087 /* SidePresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidePresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2121DC8234D9EDA00006087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2121DCA234D9EDA00006087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +48,9 @@
 		A2121DBC234D9EDA00006087 = {
 			isa = PBXGroup;
 			children = (
+				45473028234E6DC800EB74F4 /* SideMenuInteractivetransition.swift */,
+				45473026234E69D900EB74F4 /* SideMenuAnimate.swift */,
+				45473024234E684600EB74F4 /* SideMenuPresentation.swift */,
 				A2121DC7234D9EDA00006087 /* SidePresentation */,
 				A2121DC6234D9EDA00006087 /* Products */,
 			);
@@ -152,7 +161,10 @@
 				A29A51D9234DA26100CF4C8D /* SideMenuViewController.swift in Sources */,
 				A2121DCD234D9EDA00006087 /* ViewController.swift in Sources */,
 				A2121DC9234D9EDA00006087 /* AppDelegate.swift in Sources */,
+				45473027234E69D900EB74F4 /* SideMenuAnimate.swift in Sources */,
+				45473029234E6DC800EB74F4 /* SideMenuInteractivetransition.swift in Sources */,
 				A2121DCB234D9EDA00006087 /* SceneDelegate.swift in Sources */,
+				45473025234E684600EB74F4 /* SideMenuPresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV5S682VFJ;
 				INFOPLIST_FILE = SidePresentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV5S682VFJ;
 				INFOPLIST_FILE = SidePresentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
